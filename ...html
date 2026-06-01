@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alif</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            /* Pride flag gradient */
+            background: linear-gradient(
+                180deg,
+                #ff0000 0%,
+                #ff0000 16.6%,
+                #ff8d00 16.6%,
+                #ff8d00 33.3%,
+                #ffff00 33.3%,
+                #ffff00 50%,
+                #008000 50%,
+                #008000 66.6%,
+                #0000ff 66.6%,
+                #0000ff 83.3%,
+                #86007d 83.3%,
+                #86007d 100%
+            );
+            background-size: 100% 200%;
+            /* Animates the background to make the flag move */
+            animation: moveFlag 5s ease-in-out infinite alternate;
+        }
+
+        @keyframes moveFlag {
+            0% {
+                background-position: 0% 0%;
+            }
+            100% {
+                background-position: 0% 100%;
+            }
+        }
+
+        h1 {
+            font-family: 'Arial Black', sans-serif;
+            font-size: 5rem;
+            color: white;
+            text-align: center;
+            text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.3);
+            border-radius: 15px;
+            letter-spacing: 2px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Alif is gay</h1>
+
+</body>
+</html>
